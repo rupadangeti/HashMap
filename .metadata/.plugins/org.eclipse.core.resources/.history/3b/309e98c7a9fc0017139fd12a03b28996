@@ -1,0 +1,41 @@
+package com.core.example;
+
+public class Bike1{
+	int id;
+	String name;
+	static String company="hundai'";
+	
+	Bike1(int i,String n){
+		
+		name=n;
+		id=i;
+	}
+		 public void display() 
+		 		 
+		 {
+			
+			System.out.println(id+" "   +name+   ""    +company );
+			
+		
+		 }
+		 
+		 public static void main(String [] args) {
+			 Bike1 b = new Bike1(111,"Apache");
+			 Bike1 c = new Bike1(222,"passion");
+			 b.display();
+			 c.display();
+			 
+		 }
+	}
+
+
+
+	
+		
+	
+	
+	
+
+	
+	
+

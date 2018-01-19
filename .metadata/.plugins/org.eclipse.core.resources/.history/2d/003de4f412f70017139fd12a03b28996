@@ -1,0 +1,12 @@
+package com.core.example1;
+
+public class quadratic {
+	public static void main(StringBuffer[] args) {
+	//quadratic equation=ax*x - bx+c
+	int a=3;
+	int b=8;
+	int c=4;
+	System.out.println("a x*x -b x + c");
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.core.example1;
+
+public class UserDefinedException {
+
+}

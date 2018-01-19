@@ -1,0 +1,52 @@
+package com.core.example4;
+
+public class ClassExample {
+public static void main(String [] args) {
+	JobApplication ramJobApplication=new JobApplication();
+	ramJobApplication.firstName="Ram";
+	ramJobApplication.lastName="d";
+	ramJobApplication.year=1889;
+	ramJobApplication.salary=100000;
+	ramJobApplication.display();
+	
+	JobApplication ravanaJobApplication=new JobApplication("Ravana","s",1880,1000000);
+	
+	
+	ravanaJobApplication.display();
+	
+	
+	
+	
+}
+}
+class JobApplication{
+	//instance variable
+	String firstName;
+	String lastName;
+	int year;
+	double salary;
+//default constructor
+	JobApplication() {
+		firstName="default first name";
+		lastName="default last name";
+		year=1990;
+		salary=1000000.00;
+	}
+	
+	//parameterized constructor
+	JobApplication(String fname,String lname,int y,double sal) {
+		firstName=" fName";
+		lastName="lName";
+		year=y;
+		salary= sal;
+	}
+	
+
+
+	void display() {
+		System.out.println("firstname:" +firstName);
+		System.out.println("last name:" +lastName);
+		System.out.println("year of birth" +year);
+		System.out.println("salary" +salary);
+	}
+}

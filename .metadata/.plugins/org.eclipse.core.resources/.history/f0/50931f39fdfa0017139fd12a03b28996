@@ -1,0 +1,37 @@
+package com.core.example1;
+
+
+
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+ 
+public class TestHashMap {
+ 
+   public static void main(String args[]){
+ 
+      HashMap<String,String> hmCountry = new HashMap<String,String>();
+      // adding elements to the HashMap
+      hmCountry.put("ES","Spain");
+      hmCountry.put("DE","Germany");
+      hmCountry.put("FR","France");
+      hmCountry.put("CN","China");
+      hmCountry.put("US","United States");
+      hmCountry.put("RU","Russia");
+      hmCountry.put("GB","United Kingdom ");
+      hmCountry.put("IN","India");
+      hmCountry.put("BR","Brazil");
+      hmCountry.put("SA","South Africa");
+ 
+      // display the HashMap content using Iterator
+      Set set = hmCountry.entrySet();
+      Iterator iterator = set.iterator();
+      while(iterator.hasNext()) {
+         Map.Entry ent = (Map.Entry) iterator.next();
+         System.out.print("key: " + ent.getKey() + ", Value: ");
+         System.out.println(ent.getValue());
+      }
+   }
+}

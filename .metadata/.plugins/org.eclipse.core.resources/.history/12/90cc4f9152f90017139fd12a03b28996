@@ -1,0 +1,58 @@
+
+package com.core.example6;
+
+import com.core.example6.EmpDetails;
+
+public class ClassExample1 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		EmpDetails appleempDetailes=new EmpDetails();
+		
+		
+		
+	}
+class EmpDetails {
+	String firstName;
+	String lastName;
+	String address;
+	String state;
+	int zipcode;
+	int phoneNo;
+	String designation;
+	int expy;
+	double sal;
+	
+	
+	
+	
+	
+	EmpDetailes(){
+		
+		
+	firstName="default first name";
+	lastName="default last name";
+	address="jsdhfskjfs";
+	state="CA";
+	zipcode=94555;
+	phoneNo=83729329;
+	designation="Manager";
+	expy=10;
+	
+	sal=100000;
+	    
+	}
+	}
+	
+	void display() {
+		System.out.println("first name:" +firstName);
+		System.out.println("last name:" +lastName);
+		System.out.println("address" +address);;
+		System.out.println("")
+	
+	}
+}
+
+}

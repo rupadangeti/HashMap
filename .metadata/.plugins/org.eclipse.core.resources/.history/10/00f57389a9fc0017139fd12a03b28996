@@ -1,0 +1,26 @@
+package com.core.example;
+
+public class Bike1 {
+	int year;
+	String name;
+	
+	Bike1(	String s,int i){
+		year=i;
+		name=s;
+		
+			}
+	void display() {
+		System.out.println(name+  ""  +year);
+	}
+public static void main(String[]args) {
+	Bike1 a= new Bike1("Apache",2013);
+	Bike1 b= new Bike1("Hondas",2016);
+	
+	a.display();
+	b.display();
+	
+}
+}
+
+
+
